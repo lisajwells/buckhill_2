@@ -8,6 +8,24 @@ remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_open',  5  )
 remove_action( 'genesis_entry_header', 'genesis_entry_header_markup_close', 15 );
 
 
+// add top section
+add_action( 'genesis_after_header', 'buckhill_add_topsection' );
+function buckhill_add_topsection() { ?>
+
+    <div class="topsection">
+        <div class="topsection-text">
+            <p>An American Craft Beer and Food Experience</p>
+            <a class="button" href="#">Menu</a><a class="button" href="#">Directions</a>
+        </div>
+        <div class="topsection-img">
+
+        </div>
+    </div>
+
+<?php
+}
+
+
 // add events list widget
 add_action( 'genesis_before_loop', 'buckhill_add_upcoming' );
 function buckhill_add_upcoming() {
