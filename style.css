@@ -1008,15 +1008,9 @@ img.alignright,
 }
 
 #tribe-events-adv-list-widget-2 .type-tribe_events {
-  border:none;
-  display:inline-block;
   float: left;
   position: relative;
   width: 33.333333%;
-}
-
-#tribe-events-adv-list-widget-2 .type-tribe_events:last-of-type {
-  margin-right: 0;
 }
 
 #tribe-events-adv-list-widget-2 img {
@@ -1068,21 +1062,24 @@ img.alignright,
   font-weight: 400;
 }
 
+p.tribe-events-widget-link {
+    clear: both;
+    background-color: black;
+}
+
 .tribe-events-event-image {
   display: block;
   width: 100%;
   position: relative;
-  height: 0;
-  overflow: hidden;
+  height: auto;
 }
 
 .home .tribe-events-event-image {
-  padding: 75% 0 0 0;
+  /*padding: 75% 0 0 0;*/
   z-index: 5;
 }
 
 .tribe-events-event-image img {
-  position: absolute;
   display: block;
   max-width: 100%;
   max-height: 100%;
