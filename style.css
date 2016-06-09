@@ -977,13 +977,26 @@ img.alignright,
   text-align: center;
 }
 
-#tribe-events-adv-list-widget-2 h3.widget-title,
-.home main h3 {
+#tribe-events-adv-list-widget-2 h3 {
   background-color: midnightblue;
   color: #fff;
   font-size: 33px;
   font-size: 3.3rem;
+  padding: .5em 0;
   text-transform: uppercase;
+}
+
+#tribe-events-adv-list-widget-2 h3:after {
+    border-top: 36px solid #0099CC;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    bottom: -144px;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -36px;
+    width: 0;
+    height: 0;
 }
 
 #tribe-events-adv-list-widget-2 .tribe-mini-calendar-event .list-date,
