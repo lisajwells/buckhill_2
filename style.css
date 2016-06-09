@@ -580,10 +580,14 @@ th:first-child {
 }
 
 .site-inner {
-  background-color: pink;
+  background-color: khaki;
 	clear: both;
 	padding-top: 40px;
 	word-wrap: break-word;
+}
+
+.home .site-inner {
+  padding-top: 0;
 }
 
 .landing-page .site-inner {
@@ -969,67 +973,65 @@ img.alignright,
 --------------------------------------------- */
 
 /* Event Calendar Pro Front-Page Widget */
-#tribe-events-list-widget-2 {
+#tribe-events-adv-list-widget-2 {
   text-align: center;
-  background: black;
-  color: #fff;
 }
 
-#tribe-events-list-widget-2 h3.widget-title,
+#tribe-events-adv-list-widget-2 h3.widget-title,
 .home main h3 {
   background-color: midnightblue;
+  color: #fff;
   font-size: 33px;
   font-size: 3.3rem;
   text-transform: uppercase;
 }
 
-#tribe-events-list-widget-2 .tribe-mini-calendar-event .list-date,
-#tribe-events-list-widget-2 .tribe-mini-calendar-event .tribe-events-location {
+#tribe-events-adv-list-widget-2 .tribe-mini-calendar-event .list-date,
+#tribe-events-adv-list-widget-2 .tribe-mini-calendar-event .tribe-events-location {
   display: none;
 }
 
-#tribe-events-list-widget-2 .type-tribe_events {
+#tribe-events-adv-list-widget-2 .type-tribe_events {
   display:inline-block;
-  width: 31%;
-  margin-right: 3%;
+  width: 33.333333%;
   float: left;
   border:none;
 }
 
-#tribe-events-list-widget-2 .type-tribe_events:last-of-type {
+#tribe-events-adv-list-widget-2 .type-tribe_events:last-of-type {
   margin-right: 0;
 }
 
-#tribe-events-list-widget-2 img {
+#tribe-events-adv-list-widget-2 img {
   width: 100%;
 }
 
-#tribe-events-list-widget-2 .tribe-mini-calendar-event {
+#tribe-events-adv-list-widget-2 .tribe-mini-calendar-event {
     border-bottom: 0;
 }
 
-#tribe-events-list-widget-2 .tribe-mini-calendar-event .list-info {
+#tribe-events-adv-list-widget-2 .tribe-mini-calendar-event .list-info {
     margin: 10px 0;
     display: inline;
     line-height: 1;
     width: 100%;
 }
 
-#tribe-events-list-widget-2 h2.tribe-events-title {
+#tribe-events-adv-list-widget-2 h2.tribe-events-title {
   font-size: 20px;
   font-size: 2rem;
   font-weight: 400;
 }
 
-#tribe-events-list-widget-2 h2.tribe-events-title a {
+#tribe-events-adv-list-widget-2 h2.tribe-events-title a {
   border-bottom: none;
 }
 
-#tribe-events-list-widget-2 h2.tribe-events-title a:hover {
+#tribe-events-adv-list-widget-2 h2.tribe-events-title a:hover {
   color: #2A6284;
 }
 
-#tribe-events-list-widget-2 .tribe-events-duration {
+#tribe-events-adv-list-widget-2 .tribe-events-duration {
   font-size: 13px;
   font-size: 1.3rem;
   font-weight: 400;

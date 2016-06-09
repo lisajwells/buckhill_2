@@ -61,7 +61,7 @@ if ( isset( $posts ) && $posts ) :
 	<?php endforeach ?>
 
 	<p class="tribe-events-widget-link">
-		<a href="<?php get_home_url() ?>/events" class="button small" id="homepage-to-events-btn">Explore the full Stanhope Calendar</a>
+		<a href="<?php get_home_url() ?>/events" class="button small" id="homepage-to-events-btn">View the full Calendar</a>
 		</a>
 	</p>
 
