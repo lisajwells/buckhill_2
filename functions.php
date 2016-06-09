@@ -71,6 +71,9 @@ add_theme_support( 'custom-header', array(
 //* Add support for custom background
 add_theme_support( 'custom-background' );
 
+// Remove the edit link
+add_filter ( 'genesis_edit_post_link' , '__return_false' );
+
 //* Add support for after entry widget
 add_theme_support( 'genesis-after-entry-widget-area' );
 
@@ -79,6 +82,7 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 
 //* Add Image Sizes
 add_image_size( 'featured-image', 720, 400, TRUE );
+add_image_size( 'events-home', 500, 340, true );
 
 //* Rename primary and secondary navigation menus
 add_theme_support( 'genesis-menus' , array( 'primary' => __( 'After Header Menu', 'genesis-sample' ), 'secondary' => __( 'Footer Menu', 'genesis-sample' ) ) );

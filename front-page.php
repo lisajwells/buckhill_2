@@ -27,7 +27,7 @@ function buckhill_add_topsection() { ?>
 
 
 // add events list widget
-add_action( 'genesis_before_loop', 'buckhill_add_upcoming' );
+add_action( 'genesis_before_content_sidebar_wrap', 'buckhill_add_upcoming' );
 function buckhill_add_upcoming() {
     genesis_widget_area ('upcoming-events', array(
         'before' => '<div class="upcoming-events"><div class="wrap">',
