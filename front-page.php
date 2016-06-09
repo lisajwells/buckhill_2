@@ -34,4 +34,11 @@ function buckhill_add_upcoming() {
     ) );
 }
 
+// add our process h3
+add_action( 'genesis_before_content', 'buckhill_add_process_h3' );
+function buckhill_add_process_h3() {
+    echo '<h3>Our Process</h3>';
+}
+
+
 genesis();

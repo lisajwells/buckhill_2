@@ -977,7 +977,8 @@ img.alignright,
   text-align: center;
 }
 
-#tribe-events-adv-list-widget-2 h3 {
+#tribe-events-adv-list-widget-2 h3,
+.home h3 {
   background-color: midnightblue;
   color: #fff;
   font-size: 33px;
@@ -985,11 +986,13 @@ img.alignright,
   margin: 0;
   padding: .5em 0;
   position: relative;
+  text-align: center;
   text-transform: uppercase;
   z-index: 99;
 }
 
-#tribe-events-adv-list-widget-2 h3:after {
+#tribe-events-adv-list-widget-2 h3:after,
+.home h3:after {
     border-top: 36px solid midnightblue;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
@@ -1063,8 +1066,9 @@ img.alignright,
 }
 
 p.tribe-events-widget-link {
-    clear: both;
     background-color: black;
+    clear: both;
+    padding: 1.2em;
 }
 
 .tribe-events-event-image {
