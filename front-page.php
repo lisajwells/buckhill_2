@@ -25,7 +25,6 @@ function buckhill_add_topsection() { ?>
 <?php
 }
 
-
 // add events list widget
 add_action( 'genesis_before_content_sidebar_wrap', 'buckhill_add_upcoming' );
 function buckhill_add_upcoming() {
@@ -34,6 +33,5 @@ function buckhill_add_upcoming() {
         'after' => '</div></div>',
     ) );
 }
-
 
 genesis();
