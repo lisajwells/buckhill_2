@@ -982,15 +982,18 @@ img.alignright,
   color: #fff;
   font-size: 33px;
   font-size: 3.3rem;
+  margin: 0;
   padding: .5em 0;
+  position: relative;
   text-transform: uppercase;
+  z-index: 99;
 }
 
 #tribe-events-adv-list-widget-2 h3:after {
-    border-top: 36px solid #0099CC;
+    border-top: 36px solid midnightblue;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
-    bottom: -144px;
+    bottom: -35px;
     content: "";
     position: absolute;
     left: 50%;
@@ -1072,7 +1075,7 @@ img.alignright,
   right: 0;
   top: 0;
   bottom: 0;
-  margin: auto;
+  margin: 0;
 }
 
 #homepage-to-events-btn {
