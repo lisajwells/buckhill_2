@@ -303,6 +303,7 @@ video,
 }
 
 img {
+  display: block;
 	height: auto;
 }
 
@@ -1361,13 +1362,18 @@ margin-right: 3%;
 
 .topsection-text {
   background-color: black;
-  float: left;
+  display:table-cell;
+  /*float: left;*/
+  height: 100%;
   width: 50%;
+  vertical-align:top;
 }
 
 .topsection-img {
-  float: left;
+  display:table-cell;
+  /*float: left;*/
   width: 50%;
+  vertical-align:top;
 }
 
 /* # Content Area

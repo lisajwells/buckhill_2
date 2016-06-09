@@ -18,7 +18,7 @@ function buckhill_add_topsection() { ?>
             <a class="button" href="#">Menu</a><a class="button" href="#">Directions</a>
         </div>
         <div class="topsection-img">
-
+        <img src="http://buckhill.dev/wp-content/uploads/2016/06/Buck-Hill-Brewery-Blairstown-NJ.jpg">
         </div>
     </div>
 
