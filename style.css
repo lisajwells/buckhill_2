@@ -72,6 +72,15 @@
 - Print Styles
 */
 
+/*
+rgb(10,48,21);
+rgb(45,73,59);
+rgb(44,44,86);
+rgb(35,31,32);
+
+
+*/
+
 
 /* # HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
@@ -424,8 +433,8 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-	background-color: darkgreen;
-	border: 0;
+	background-color: rgb(45,73,59);
+	border: 2px solid rgb(10,48,21);
 	color: #fff;
 	cursor: pointer;
 	font-size: 16px;
@@ -433,6 +442,7 @@ input[type="submit"],
 	font-weight: 700;
 	padding: 16px 24px;
 	text-decoration: none;
+  text-transform: uppercase;
 	white-space: normal;
 	width: auto;
 }
@@ -580,7 +590,6 @@ th:first-child {
 }
 
 .site-inner {
-  background-color: khaki;
 	clear: both;
 	padding-top: 40px;
 	word-wrap: break-word;
@@ -974,12 +983,13 @@ img.alignright,
 
 /* Event Calendar Pro Front-Page Widget */
 #tribe-events-adv-list-widget-2 {
+  margin-bottom: 0;
   text-align: center;
 }
 
 #tribe-events-adv-list-widget-2 h3,
 .home h3 {
-  background-color: midnightblue;
+  background-color: rgb(44,44,86);
   color: #fff;
   font-size: 33px;
   font-size: 3.3rem;
@@ -993,7 +1003,7 @@ img.alignright,
 
 #tribe-events-adv-list-widget-2 h3:after,
 .home h3:after {
-    border-top: 36px solid midnightblue;
+    border-top: 36px solid rgb(44,44,86);
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
     bottom: -35px;
@@ -1022,7 +1032,7 @@ img.alignright,
 
 .home .tribe-mini-calendar-event {
     border-bottom: 0;
-    background-color: darkgreen;
+    background-color: rgb(45,73,59);
     color: #fff;
     position: absolute;
     left: 50%;
@@ -1066,7 +1076,7 @@ img.alignright,
 }
 
 p.tribe-events-widget-link {
-    background-color: black;
+    background-color: rgb(35,31,32);
     clear: both;
     padding: 1.2em;
 }
@@ -1177,7 +1187,7 @@ p.tribe-events-widget-link {
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-    background-color: midnightblue;
+    background-color: rgb(44,44,86);
     color: white;
 }
 
@@ -1396,7 +1406,7 @@ p.tribe-events-widget-link {
 }
 
 .topsection-text {
-    background-color: black;
+    background-color: rgb(35,31,32);
     color: #fff;
     display: table-cell;
     height: 100%;
