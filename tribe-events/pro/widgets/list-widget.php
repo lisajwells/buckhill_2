@@ -53,7 +53,7 @@ if ( isset( $posts ) && $posts ) :
 
 			<!-- <?php //echo tribe_get_event_taxonomy ( 'category' ); ?> -->
 
-			<div class="asdf"><a href="#"><?php tribe_get_template_part( 'pro/widgets/modules/single-event-home', null, $instance ) ?></a></div>
+			<?php tribe_get_template_part( 'pro/widgets/modules/single-event-home', null, $instance ) ?>
 		</div>
 
 		<?php do_action( 'tribe_events_widget_list_inside_after_loop' ) ?>

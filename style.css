@@ -1023,11 +1023,11 @@ img.alignright,
   width: 100%;
 }
 
-#tribe-events-adv-list-widget-2 .asdf {
-    background-color: pink;
+#tribe-events-adv-list-widget-2 .asdf { /* wrap the event */
     border-bottom: 0;
     position: absolute;
-    top: 38%;
+    left: 50%;
+    top: 50%;
     z-index: 500;
 }
 
@@ -1069,6 +1069,20 @@ img.alignright,
 .home .tribe-events-event-image {
   padding: 75% 0 0 0;
   z-index: 5;
+}
+
+.home .tribe-mini-calendar-event {
+    border-bottom: 0;
+    background-color: darkgreen;
+    display: inline-block;
+    position: absolute;
+    /* left: 50%; */
+    top: 50%;
+    z-index: 500;
+    width: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 
 }
 
