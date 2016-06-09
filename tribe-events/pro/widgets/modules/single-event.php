@@ -41,7 +41,7 @@ $multiple_organizers = count( $organizer_ids ) > 1;
 		<?php do_action( 'tribe_events_list_widget_before_the_event_title' ); ?>
 
 		<h2 class="tribe-events-title">
-			<a href="<?php echo esc_url( tribe_get_event_link() ); ?>" rel="bookmark"><?php the_title(); ?>dasfdfa</a>
+			<a href="<?php echo esc_url( tribe_get_event_link() ); ?>" rel="bookmark"><?php the_title(); ?></a>
 		</h2>
 
 		<?php do_action( 'tribe_events_list_widget_after_the_event_title' ); ?>

@@ -1008,10 +1008,11 @@ img.alignright,
 }
 
 #tribe-events-adv-list-widget-2 .type-tribe_events {
-  display:inline-block;
-  width: 33.333333%;
-  float: left;
   border:none;
+  display:inline-block;
+  float: left;
+  position: relative;
+  width: 33.333333%;
 }
 
 #tribe-events-adv-list-widget-2 .type-tribe_events:last-of-type {
@@ -1024,6 +1025,8 @@ img.alignright,
 
 #tribe-events-adv-list-widget-2 .tribe-mini-calendar-event {
     border-bottom: 0;
+    position: absolute;
+    top: 38%;
 }
 
 #tribe-events-adv-list-widget-2 .tribe-mini-calendar-event .list-info {

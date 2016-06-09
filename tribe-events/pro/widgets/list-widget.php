@@ -48,7 +48,7 @@ if ( isset( $posts ) && $posts ) :
 		<!-- Event  -->
 		<div class="<?php tribe_events_event_classes() ?>">
 
-			<!-- add the featured image / medium is 300 x 225 -->
+			<!-- add the featured image / events-home is 500 x 340 -->
 			<?php echo tribe_event_featured_image( null, 'events-home' ); ?>
 
 			<!-- <?php //echo tribe_get_event_taxonomy ( 'category' ); ?> -->
