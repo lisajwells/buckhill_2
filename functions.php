@@ -86,6 +86,14 @@ add_theme_support( 'genesis-after-entry-widget-area' );
 //* Add support for 3-column footer widgets
 add_theme_support( 'genesis-footer-widgets', 3 );
 
+// Change the footer text
+add_filter('genesis_footer_creds_text', 'sp_footer_creds_filter');
+function sp_footer_creds_filter( $creds ) {
+	$creds = '<a href="#">PRIVACY POLICY</a> | <a href="#">SITEMAP</a> | <a href="#">EMPLOYMENT</a><br>
+	[footer_copyright] Buck Hill Brewery. All rights reserved.<br><a href="http://curioelectro.com/">Web Design and Development by&nbsp;Curio&nbsp;Electro</a>';
+	return $creds;
+}
+
 //* Add Image Sizes
 add_image_size( 'featured-image', 720, 400, TRUE );
 add_image_size( 'events-home', 500, 340, true );
