@@ -440,7 +440,8 @@ input[type="submit"],
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-weight: 700;
-	padding: 16px 24px;
+  margin: 0 10px;
+	padding: 8px 24px;
 	text-decoration: none;
   text-transform: uppercase;
 	white-space: normal;
@@ -597,6 +598,8 @@ th:first-child {
 
 .home .site-inner {
   padding-top: 0;
+  position: relative;
+  top: 80px;
 }
 
 .landing-page .site-inner {
@@ -998,6 +1001,7 @@ img.alignright,
   position: relative;
   text-align: center;
   text-transform: uppercase;
+  /*top: 70px;*/
   z-index: 100;
 }
 
@@ -1286,6 +1290,7 @@ p.tribe-events-widget-link {
 	font-size: 1.6rem;
 	font-weight: 600;
 	line-height: 1;
+  text-transform: uppercase;
 	width: 100%;
 }
 
@@ -1415,16 +1420,31 @@ p.tribe-events-widget-link {
 
 .topsection {
   width: 100%;
+  position: relative;
+  top: 80px;
 }
 
 .topsection-text {
     background-color: rgb(35,31,32);
     color: #fff;
     display: table-cell;
+    font-size: 46px;
+    font-size: 4.6rem;
     height: 100%;
-    width: 50%;
+    line-height: 1;
     text-align: center;
+    width: 50%;
     vertical-align: middle;
+}
+
+.topsection-text p {
+    margin-bottom: 0;
+
+}
+
+.topsection-text small {
+  font-size: 29px;
+  font-size: 2.9rem;
 }
 
 .topsection-img {
