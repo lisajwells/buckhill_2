@@ -1137,6 +1137,7 @@ p.tribe-events-widget-link {
 }
 
 .home-content-text h4 {
+  color: rgb(44,44,86);
   font-weight: 400;
   text-transform: uppercase;
 }
