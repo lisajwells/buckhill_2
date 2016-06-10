@@ -81,6 +81,8 @@ rgb(35,31,32);
 font-family: 'Muli', sans-serif;
 Light: 300;
 Normal: 400;
+font-family: 'Satisfy', cursive;
+Normal 400;
 */
 
 
@@ -980,7 +982,7 @@ img.alignright,
 }
 
 
-/* # Home Events
+/* # Home Page
 ---------------------------------------------------------------------------------------------------- */
 
 /* ## Events Front Page
@@ -1110,6 +1112,16 @@ p.tribe-events-widget-link {
 #homepage-to-events-btn {
   clear: both;
   width: auto;
+}
+
+/*** Content Section */
+
+.home-content-h4 {
+  font-family: 'Satisfy', cursive;
+  font-size: 64px;
+  font-size: 6.4rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 /* # Plugins
@@ -1653,8 +1665,10 @@ p.entry-meta {
 }
 
 .footer-widgets h3 {
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-family: 'Satisfy', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  font-size: 3rem;
   margin-bottom: 6px;
 }
 
