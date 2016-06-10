@@ -998,7 +998,7 @@ img.alignright,
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  z-index: 99;
+  z-index: 100;
 }
 
 #tribe-events-adv-list-widget-2 h3:after,
@@ -1038,7 +1038,7 @@ img.alignright,
     position: absolute;
     left: 50%;
     top: 50%;
-    z-index: 500;
+    z-index: 100;
     width: 50%;
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -1190,10 +1190,14 @@ p.tribe-events-widget-link {
 .site-header {
     background-color: rgb(44,44,86);
     color: white;
+    position: fixed;
+    width: 100%;
+    max-width: 1500px;
+    z-index: 200;
 }
 
 .site-header > .wrap {
-	padding: 0 20px;
+	padding: 0 20px 0 40px;
 }
 
 /* ## Title Area
@@ -1207,7 +1211,7 @@ p.tribe-events-widget-link {
 
 .header-image .title-area {
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 220px;
   padding: 0;
   position: absolute;
 }
