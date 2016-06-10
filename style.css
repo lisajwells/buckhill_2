@@ -988,7 +988,7 @@ img.alignright,
 }
 
 #tribe-events-adv-list-widget-2 h3,
-.home h3 {
+.home .content-sidebar-wrap h3 {
   background-color: rgb(44,44,86);
   color: #fff;
   font-size: 33px;
@@ -1002,7 +1002,7 @@ img.alignright,
 }
 
 #tribe-events-adv-list-widget-2 h3:after,
-.home h3:after {
+.home .content-sidebar-wrap h3:after {
     border-top: 36px solid rgb(44,44,86);
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
@@ -1617,26 +1617,44 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 
 .footer-widgets {
-	background-color: #fff;
-	font-size: 18px;
-	font-size: 1.8rem;
-	clear: both;
-	padding: 60px 0;
+  background-color: rgb(35,31,32);
+  clear: both;
+  color: #fff;
+  float: left;
+  font-size: 18px;
+  font-size: 1.8rem;
+  padding: 60px 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-widgets .widget-area {
+  margin: 0 3.166666%;
+  width: 27%;
+}
+
+.footer-widgets-1 a {
+  color: #fff;
 }
 
 .footer-widgets-1,
 .footer-widgets-2,
 .footer-widgets-3 {
-	width: 380px;
+	/*width: 380px;*/
 }
 
 .footer-widgets-1 {
-	margin-right: 70px;
+	/*margin-right: 70px;*/
 }
 
 .footer-widgets-1,
 .footer-widgets-2 {
 	float: left;
+}
+
+.footer-widgets-2 img {
+    width: 21%;
+    margin: 0 auto;
 }
 
 .footer-widgets-3 {
@@ -1648,13 +1666,18 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 
 .site-footer {
-	background-color: #fff;
-	border-top: 1px solid #eee;
+	background-color: rgb(35,31,32);
+  clear: both;
+  color: #fff;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1;
 	padding: 60px 0;
 	text-align: center;
+}
+
+.site-footer a {
+  color: #fff;
 }
 
 .site-footer p {
