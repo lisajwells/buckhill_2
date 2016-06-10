@@ -78,7 +78,9 @@ rgb(45,73,59);
 rgb(44,44,86);
 rgb(35,31,32);
 
-
+font-family: 'Muli', sans-serif;
+Light: 300;
+Normal: 400;
 */
 
 
@@ -89,7 +91,7 @@ rgb(35,31,32);
 --------------------------------------------- */
 /* normalize.css v3.0.1 | MIT License | git.io/normalize */
 
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#333}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:400}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#333}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:400}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 /* ## Box Sizing
 --------------------------------------------- */
@@ -167,11 +169,11 @@ body > div {
 body {
 	background-color: #fff;
 	color: #333;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-size: 20px;
 	font-size: 2rem;
 	-webkit-font-smoothing: antialiased;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 1.625;
 	margin: 0;
 }
@@ -228,7 +230,7 @@ hr {
 
 b,
 strong {
-	font-weight: 700;
+	font-weight: 400;
 }
 
 blockquote,
@@ -263,8 +265,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 600;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
 	line-height: 1.2;
 	margin: 0 0 10px;
 }
@@ -402,7 +404,7 @@ textarea {
 	color: #333;
 	font-size: 18px;
 	font-size: 1.8rem;
-	font-weight: 400;
+	font-weight: 300;
 	padding: 16px;
 	width: 100%;
 }
@@ -439,7 +441,7 @@ input[type="submit"],
 	cursor: pointer;
 	font-size: 16px;
 	font-size: 1.6rem;
-	font-weight: 700;
+	font-weight: 400;
   margin: 0 10px;
 	padding: 8px 24px;
 	text-decoration: none;
@@ -527,7 +529,7 @@ td {
 }
 
 th {
-	font-weight: 400;
+	font-weight: 300;
 	padding: 0 6px;
 }
 
@@ -899,7 +901,7 @@ img.alignright,
 .wp-caption-text {
 	font-size: 14px;
 	font-size: 1.4rem;
-	font-weight: 600;
+	font-weight: 400;
 	margin: 0;
 	text-align: center;
 }
@@ -1055,7 +1057,7 @@ img.alignright,
 #tribe-events-adv-list-widget-2 h2.tribe-events-title {
   font-size: 20px;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
@@ -1073,7 +1075,7 @@ img.alignright,
 #tribe-events-adv-list-widget-2 .tribe-events-duration {
   font-size: 13px;
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 p.tribe-events-widget-link {
@@ -1224,7 +1226,7 @@ p.tribe-events-widget-link {
 .site-title {
   font-size: 30px;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.2;
 }
 
@@ -1256,7 +1258,7 @@ p.tribe-events-widget-link {
 .site-description {
   font-size: 16px;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
 }
 
@@ -1288,7 +1290,7 @@ p.tribe-events-widget-link {
 	clear: both;
 	font-size: 16px;
 	font-size: 1.6rem;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: 1;
   text-transform: uppercase;
 	width: 100%;
@@ -1432,14 +1434,14 @@ p.tribe-events-widget-link {
     font-size: 4.6rem;
     height: 100%;
     line-height: 1;
+    padding: 1em;
     text-align: center;
     width: 50%;
     vertical-align: middle;
 }
 
 .topsection-text p {
-    margin-bottom: 0;
-
+    margin-bottom: 10px;
 }
 
 .topsection-text small {
@@ -1541,7 +1543,7 @@ p.entry-meta {
 	display: inline-block;
 	font-size: 16px;
 	font-size: 1.6rem;
-	font-weight: 600;
+	font-weight: 400;
 	padding: 8px 12px;
 	text-decoration: none;
 }
