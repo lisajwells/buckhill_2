@@ -14,7 +14,7 @@ function buckhill_add_topsection() { ?>
 
     <div class="topsection">
         <div class="topsection-text">
-            <p>An American Craft Beer and Food Experience</p>
+            <p>An American Craft Beer <small>and</small> Food Experience</p>
             <a class="button" href="#">Menu</a><a class="button" href="#">Directions</a>
         </div>
         <div class="topsection-img">

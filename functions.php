@@ -62,11 +62,17 @@ add_theme_support( 'genesis-responsive-viewport' );
 //* Add support for custom header
 add_theme_support( 'custom-header', array(
 	'width'           => 600,
-	'height'          => 160,
+	'height'          => 290,
 	'header-selector' => '.site-title a',
 	'header-text'     => false,
 	'flex-height'     => true,
 ) );
+
+//* Remove the site title
+// remove_action( 'genesis_site_title', 'genesis_seo_site_title' );
+
+//* Remove the site description
+// remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 
 //* Add support for custom background
 add_theme_support( 'custom-background' );

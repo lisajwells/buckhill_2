@@ -1033,6 +1033,7 @@ img.alignright,
 .home .tribe-mini-calendar-event {
     border-bottom: 0;
     background-color: rgb(45,73,59);
+    border: 2px solid rgb(10,48,21);
     color: #fff;
     position: absolute;
     left: 50%;
@@ -1042,7 +1043,6 @@ img.alignright,
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-
 }
 
 #tribe-events-adv-list-widget-2 .tribe-mini-calendar-event .list-info {
@@ -1056,6 +1056,7 @@ img.alignright,
   font-size: 20px;
   font-size: 2rem;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 #tribe-events-adv-list-widget-2 h2.tribe-events-title a {
@@ -1192,67 +1193,78 @@ p.tribe-events-widget-link {
 }
 
 .site-header > .wrap {
-	padding: 20px;
+	padding: 0 20px;
 }
 
 /* ## Title Area
 --------------------------------------------- */
 
 .title-area {
-	float: left;
-	padding: 10px 0;
-	width: 300px;
+  float: left;
+  padding: 10px 0;
+  width: 300px;
 }
 
 .header-image .title-area {
-	margin: 0 auto;
-	max-width: 300px;
-	padding: 0;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 0;
+  position: absolute;
 }
 
 .header-full-width .title-area {
-	float: none;
-	width: 100%;
+  float: none;
+  width: 100%;
 }
 
 .site-title {
-	font-size: 30px;
-	font-size: 3rem;
-	font-weight: 700;
-	line-height: 1.2;
+  font-size: 30px;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .site-title a,
 .site-title a:hover,
 .site-title a:focus {
-	color: #fff;
-	text-decoration: none;
+  color: #333;
+  text-decoration: none;
 }
 
+/*.header-image .site-title > a {
+  background-position: center !important;
+  background-size: contain !important;
+  float: left;
+  min-height: 80px;
+  width: 100%;
+}*/
+
+/* to make element size according to bkgd img */
 .header-image .site-title > a {
-	background-position: center !important;
-	background-size: contain !important;
-	float: left;
-	min-height: 80px;
-	width: 100%;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    display: block;
+    height: 0;
+    padding-top: 48.333333%;
+    width: 100%;
 }
 
 .site-description {
-	font-size: 16px;
-	font-size: 1.6rem;
-	font-weight: 400;
-	line-height: 1.5;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .site-description,
 .site-title {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .header-image .site-description,
 .header-image .site-title {
-	display: block;
-	text-indent: -9999px;
+  display: block;
+  text-indent: -9999px;
 }
 
 /* ## Widget Area
