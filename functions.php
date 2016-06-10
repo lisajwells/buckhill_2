@@ -92,7 +92,7 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 add_filter('genesis_footer_creds_text', 'sp_footer_creds_filter');
 function sp_footer_creds_filter( $creds ) {
 	$creds = '<a href="#">PRIVACY POLICY</a> | <a href="#">SITEMAP</a> | <a href="#">EMPLOYMENT</a><br>
-	[footer_copyright] Buck Hill Brewery. All rights reserved.<br><a href="http://curioelectro.com/">Web Design and Development by&nbsp;Curio&nbsp;Electro</a>';
+	[footer_copyright] Buck Hill Brewery. All rights reserved. | <a href="http://curioelectro.com/">Web Design and Development by&nbsp;Curio&nbsp;Electro</a>';
 	return $creds;
 }
 

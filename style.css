@@ -1680,15 +1680,15 @@ p.entry-meta {
   float: left;
   font-size: 18px;
   font-size: 1.8rem;
-  padding: 60px 0 0 0;
+  padding: 6em 0 0 0;
   text-align: center;
   width: 100%;
 }
 
 .footer-widgets .widget-area {
-  margin: 0 3.166666%;
-  vertical-align: bottom;
-  width: 27%;
+    padding: 0 3.166666%;
+    vertical-align: bottom;
+    width: 33.33399%;
 }
 
 .footer-widgets h3 {
@@ -1699,9 +1699,26 @@ p.entry-meta {
   margin-bottom: 6px;
 }
 
-.footer-widgets-1 a {
+.footer-widgets-1 a,
+.site-footer a {
   color: #fff;
   text-decoration: none;
+}
+
+.footer-widgets-1 a:hover,
+.site-footer a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.footer-widgets-1 .widget ul > li {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer-widgets-1,
+.footer-widgets-2 {
+  border-right: 2px solid rgb(44,44,86);
 }
 
 .footer-widgets-1,
@@ -1733,14 +1750,14 @@ p.entry-meta {
 ---------------------------------------------------------------------------------------------------- */
 
 .site-footer {
-	background-color: rgb(35,31,32);
+  background-color: rgb(35,31,32);
   clear: both;
   color: #fff;
-	font-size: 16px;
-	font-size: 1.6rem;
-	line-height: 1;
-	padding: 60px 0;
-	text-align: center;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  padding: 60px 0;
+  text-align: center;
 }
 
 .site-footer a {
