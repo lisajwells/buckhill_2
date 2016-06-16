@@ -1934,8 +1934,8 @@ p.entry-meta {
 	.menu-toggle,
 	.sub-menu-toggle {
 		border-width: 0;
-		background-color: #fff;
-		color: #333;
+		background-color: rgb(44,44,86);
+		color: #fff;
 		display: block;
 		margin: 0 auto;
 		overflow: hidden;
@@ -1958,7 +1958,8 @@ p.entry-meta {
 	}
 
 	.site-header .menu-toggle {
-		border: 0;
+		border: none;
+    text-align: right;
 	}
 
 	.menu-toggle:before,
@@ -2042,14 +2043,14 @@ p.entry-meta {
 	.js nav button:hover,
 	.js .menu-toggle:hover,
 	.js .nav-primary {
-		background-color: #fff;
-		color: #000;
+		background-color: rgb(44,44,86);
+		color: #fff;
 	}
 
 	.js nav button:focus,
 	.js .menu-toggle:focus {
-		background-color: #fff;
-		color: rgb(44,44,86);
+		background-color: rgb(44,44,86);
+		color: #fff;
 	}
 
   .header-image .title-area {
@@ -2129,13 +2130,29 @@ p.entry-meta {
 	}
 
 	.site-inner {
-		padding: 5% 5% 0;
+		/*padding: 5% 5% 0;*/
 	}
 
 	.wrap {
-		padding-left: 5%;
+/*		padding-left: 5%;
 		padding-right: 5%;
-	}
+*/	}
+
+  .header-image .title-area {
+      left: 8%;
+      width: 36%;
+  }
+
+  .topsection-text,
+  .topsection-img {
+    display: block;
+    width: 100%;
+  }
+
+  #tribe-events-adv-list-widget-2 h3, .home .content-sidebar-wrap h3 {
+    font-size: 22px;
+    font-size: 2.2rem;
+  }
 
 	.after-entry,
 	.archive-description,
