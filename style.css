@@ -1048,6 +1048,10 @@ img.alignright,
             transform: translate(-50%, -50%);
 }
 
+.home .tribe-mini-calendar-event:hover {
+  background-color: rgb(44,44,86);
+}
+
 #tribe-events-adv-list-widget-2 .tribe-mini-calendar-event .list-info {
     margin: 10px 0;
     display: inline;
