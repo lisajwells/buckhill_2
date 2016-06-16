@@ -1693,6 +1693,7 @@ p.entry-meta {
 
 .footer-widgets .widget-area {
     padding: 0 3.166666%;
+    height: 289px;
     vertical-align: bottom;
     width: 33.33399%;
 }
@@ -1713,8 +1714,8 @@ p.entry-meta {
 
 .footer-widgets-1 a:hover,
 .site-footer a:hover {
-  color: red;
-  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
 }
 
 .footer-widgets-1 .widget ul > li {
@@ -1782,7 +1783,7 @@ p.entry-meta {
 
 	.site-inner,
 	.wrap {
-		max-width: 1140px;
+		/*max-width: 1140px;*/
 	}
 
 	.content-sidebar-sidebar .content-sidebar-wrap,
@@ -1806,7 +1807,7 @@ p.entry-meta {
 		width: 300px;
 	}
 
-	.footer-widgets-1,
+/*	.footer-widgets-1,
 	.footer-widgets-2,
 	.footer-widgets-3 {
 		width: 340px;
@@ -1815,7 +1816,7 @@ p.entry-meta {
 	.footer-widgets-1 {
 		margin-right: 60px;
 	}
-
+*/
 }
 
 
@@ -1843,14 +1844,13 @@ p.entry-meta {
 		width: 400px;
 	}
 
-	.footer-widgets-1,
-	.footer-widgets-2,
-	.footer-widgets-3 {
-		width: 300px;
-	}
+	.footer-widgets-1.widget-area,
+	.footer-widgets-2.widget-area {
+    width: 30%;
+  }
 
-	.footer-widgets-1 {
-		margin-right: 30px;
+  .footer-widgets-3.widget-area {
+		width: 40%;
 	}
 
 }
