@@ -1885,9 +1885,14 @@ p.entry-meta {
 	}
 
 	.site-header .wrap {
-		padding-left: 5%;
-		padding-right: 5%;
+		/*padding-left: 5%;*/
+		/*padding-right: 5%;*/
+    padding: 0;
 	}
+
+  .site-header .widget-area {
+    width: 50%;
+  }
 
 	.genesis-nav-menu li,
 	.header-image .title-area,
@@ -2042,6 +2047,15 @@ p.entry-meta {
 		background-color: #fff;
 		color: rgb(44,44,86);
 	}
+
+  .header-image .title-area {
+      left: 13%;
+      width: 25%;
+  }
+
+  .topsection {
+      top: 36px;
+  }
 
   .topsection-text {
       font-size: 30px;
