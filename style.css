@@ -2154,6 +2154,18 @@ p.entry-meta {
     font-size: 2.2rem;
   }
 
+  #tribe-events-adv-list-widget-2 .type-tribe_events {
+    width: 100%;
+  }
+
+  .home .content-sidebar-wrap h3 {
+    margin-bottom: 2em;
+  }
+
+  .home-content-text .button {
+    margin: 0 auto 20px;
+  }
+
 	.after-entry,
 	.archive-description,
 	.author-box,
