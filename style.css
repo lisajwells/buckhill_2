@@ -445,7 +445,7 @@ input[type="submit"],
 	font-size: 1.6rem;
 	font-weight: 400;
   line-height: 16px;
-	padding: 8px 24px;
+	padding: 8px 30px;
   text-align: center;
 	text-decoration: none;
   text-transform: uppercase;
@@ -481,7 +481,7 @@ button.small,
 input[type="button"].small,
 input[type="reset"].small,
 input[type="submit"].small {
-	padding: 8px 24px;
+	padding: 8px 30px;
 }
 
 .site-container button:disabled,
@@ -1153,7 +1153,7 @@ p.tribe-events-widget-link {
 .home-content-text .button {
   display: block;
   margin-bottom: 20px;
-  width: 150px;
+  width: 185px;
 }
 
 /* # Plugins
