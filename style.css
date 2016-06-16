@@ -1038,6 +1038,7 @@ img.alignright,
     background-color: rgb(45,73,59);
     border: 2px solid rgb(10,48,21);
     color: #fff;
+    padding: 0 5px 5px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1063,6 +1064,7 @@ img.alignright,
   font-size: 20px;
   font-size: 2rem;
   font-weight: 300;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
@@ -1081,6 +1083,7 @@ img.alignright,
   font-size: 13px;
   font-size: 1.3rem;
   font-weight: 300;
+  line-height: 1.2;
 }
 
 p.tribe-events-widget-link {
@@ -2039,6 +2042,34 @@ p.entry-meta {
 		background-color: #fff;
 		color: rgb(44,44,86);
 	}
+
+  .topsection-text {
+      font-size: 30px;
+      font-size: 3rem;
+  }
+  .topsection-text small {
+      font-size: 20px;
+      font-size: 2rem;
+  }
+
+  #tribe-events-adv-list-widget-2 h3, .home .content-sidebar-wrap h3 {
+      font-size: 28px;
+      font-size: 2.8rem;
+  }
+
+  .home .tribe-mini-calendar-event {
+    width: 74%;
+  }
+
+  #tribe-events-adv-list-widget-2 h2.tribe-events-title {
+    font-size: 18px;
+    font-size: 1.8rem;
+  }
+
+  .home-content-h4 {
+    font-size: 50px;
+    font-size: 5rem;
+  }
 
 	.footer-widgets-1,
 	.footer-widgets-2 {
