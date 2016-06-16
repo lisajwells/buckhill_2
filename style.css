@@ -2156,6 +2156,9 @@ p.entry-meta {
 
   #tribe-events-adv-list-widget-2 .type-tribe_events {
     width: 100%;
+    max-width: 500px;
+    margin: 3em auto;
+    float: none;
   }
 
   .home .content-sidebar-wrap h3 {
