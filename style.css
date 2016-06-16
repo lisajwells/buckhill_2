@@ -2061,9 +2061,30 @@ p.entry-meta {
       top: 36px;
   }
 
+  .home .site-inner {
+    top: 36px;
+  }
+
+  .home-content-img {
+     float: none;
+     width: 100%;
+     margin: 0 0 20px 0;
+  }
+
+  .home-content-img img {
+     margin: 0 auto;
+  }
+
+  .home-content-text {
+       float: none;
+       margin-right: 0;
+       width: 100%;
+  }
+
   .topsection-text {
       font-size: 30px;
       font-size: 3rem;
+      padding: 3em 1em 1em 1em;
   }
   .topsection-text small {
       font-size: 20px;
