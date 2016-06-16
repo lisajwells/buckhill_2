@@ -2111,6 +2111,10 @@ p.entry-meta {
     font-size: 5rem;
   }
 
+  .footer-widgets .widget-area {
+    padding: 0 5%;
+  }
+
 	.footer-widgets-1,
 	.footer-widgets-2 {
 		margin: 0 auto 40px;
@@ -2225,6 +2229,28 @@ p.entry-meta {
     margin: 0 auto;
     max-width: 400px;
   }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .topsection-text {
+    padding: 2em 1em 1em 1em;
+  }
+
+  .topsection .button {
+      margin: .5em 1em;
+  }
+
+  #tribe-events-adv-list-widget-2 .type-tribe_events {
+    margin: 2em auto;
+  }
+
+  .home-content-h4 {
+    font-size: 43px;
+    font-size: 4.3rem;
+    margin-bottom: 10px;
+  }
+
 }
 
 
