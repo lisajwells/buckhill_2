@@ -2208,6 +2208,23 @@ p.entry-meta {
 		width: 100%;
 	}
 
+  .footer-widgets {
+    padding: 3em 0 0 0;
+  }
+
+  .footer-widgets-1.widget-area,
+  .footer-widgets-2.widget-area,
+  .footer-widgets-3.widget-area {
+    border: none;
+    height: auto;
+    width: 100%;
+  }
+
+  .footer-widgets-3.widget-area {
+    float: none;
+    margin: 0 auto;
+    max-width: 400px;
+  }
 }
 
 
