@@ -197,7 +197,7 @@ textarea:focus,
 }
 
 a {
-	color: #c3251d;
+	color: red;
 	text-decoration: underline;
 }
 
@@ -444,6 +444,7 @@ input[type="submit"],
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-weight: 400;
+  line-height: 16px;
 	padding: 8px 24px;
   text-align: center;
 	text-decoration: none;
@@ -462,7 +463,7 @@ input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus  {
-	background-color: #c3251d;
+	background-color: rgb(44,44,86);
 	color: #fff;
 }
 
@@ -840,7 +841,7 @@ th:first-child {
 
 .entry-title a:hover,
 .entry-title a:focus {
-	color: #c3251d;
+	color: rgb(44,44,86);
 }
 
 .widget-title {
@@ -1169,7 +1170,7 @@ p.tribe-events-widget-link {
 }
 
 .sidebar .enews-widget input[type="submit"] {
-	background-color: #c3251d;
+	background-color: rgb(44,44,86);
 	color: #fff;
 }
 
@@ -1351,7 +1352,7 @@ p.tribe-events-widget-link {
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus  {
-	color: #c3251d;
+	color: #fff;
 	text-decoration: underline;
 }
 
@@ -1591,7 +1592,7 @@ p.entry-meta {
 .archive-pagination a:hover,
 .archive-pagination a:focus,
 .archive-pagination .active a {
-	background-color: #c3251d;
+	background-color: rgb(44,44,86);
 	color: #fff;
 }
 
@@ -2032,7 +2033,7 @@ p.entry-meta {
 	.js nav button:focus,
 	.js .menu-toggle:focus {
 		background-color: #fff;
-		color: #c3251d;
+		color: rgb(44,44,86);
 	}
 
 	.footer-widgets-1,
