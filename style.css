@@ -83,8 +83,49 @@ Light: 300;
 Normal: 400;
 font-family: 'Satisfy', cursive;
 Normal 400;
+
+font-family: 'dark_roastregular';
+    font-weight: normal;
+    font-style: normal;
+
 */
 
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2016 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Brittney Murphy Design
+ * License URL: https://www.fontspring.com/licenses/brittneymurphydesign/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'dark_roastregular';
+    src: url('fonts/darkroast_regular_macroman/dark_roast-webfont.eot');
+    src: url('fonts/darkroast_regular_macroman/dark_roast-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/darkroast_regular_macroman/dark_roast-webfont.woff2') format('woff2'),
+         url('fonts/darkroast_regular_macroman/dark_roast-webfont.woff') format('woff'),
+         url('fonts/darkroast_regular_macroman/dark_roast-webfont.ttf') format('truetype'),
+         url('fonts/darkroast_regular_macroman/dark_roast-webfont.svg#dark_roastregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /* # HTML5 Reset
 ---------------------------------------------------------------------------------------------------- */
@@ -1123,10 +1164,10 @@ p.tribe-events-widget-link {
 /*** Home Content Section */
 
 .home-content-h4 {
-  font-family: 'Satisfy', cursive;
+  font-family: 'dark_roastregular', cursive;
   font-size: 64px;
   font-size: 6.4rem;
-  font-weight: 400;
+  font-weight: normal;
   margin-bottom: 34px;
   text-align: center;
 }
@@ -1702,8 +1743,8 @@ p.entry-meta {
 }
 
 .footer-widgets h3 {
-  font-family: 'Satisfy', cursive;
-  font-weight: 400;
+  font-family: 'dark_roastregular', cursive;
+  font-weight: normal;
   font-size: 30px;
   font-size: 3rem;
   margin-bottom: 6px;
