@@ -1165,9 +1165,10 @@ p.tribe-events-widget-link {
 
 .home-content-h4 {
   font-family: 'dark_roastregular', cursive;
-  font-size: 64px;
-  font-size: 6.4rem;
+  font-size: 80px;
+  font-size: 8rem;
   font-weight: normal;
+  line-height: .8;
   margin-bottom: 34px;
   text-align: center;
 }
@@ -1745,8 +1746,8 @@ p.entry-meta {
 .footer-widgets h3 {
   font-family: 'dark_roastregular', cursive;
   font-weight: normal;
-  font-size: 30px;
-  font-size: 3rem;
+  font-size: 52px;
+  font-size: 5.2rem;
   margin-bottom: 6px;
 }
 
@@ -2288,8 +2289,8 @@ p.entry-meta {
   }
 
   .home-content-h4 {
-    font-size: 43px;
-    font-size: 4.3rem;
+    font-size: 64px;
+    font-size: 6.4rem;
     margin-bottom: 10px;
   }
 
