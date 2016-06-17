@@ -1739,8 +1739,8 @@ p.entry-meta {
 .footer-widgets .widget-area {
     padding: 0 3.166666%;
     height: 289px;
-    vertical-align: bottom;
-    width: 33.33399%;
+    /*vertical-align: bottom;*/
+    width: 33.333%;
 }
 
 .footer-widgets h3 {
