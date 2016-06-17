@@ -1814,7 +1814,10 @@ p.entry-meta {
 
 .site-footer a {
   color: #fff;
-  padding: 0 5%;
+}
+
+.footer-divider {
+  padding: 0 1%;
 }
 
 .site-footer p {
