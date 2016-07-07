@@ -14,11 +14,8 @@ function buckhill_add_topsection() { ?>
 
     <div class="topsection">
         <div class="topsection-text">
-            <p>An American Craft Beer <small>and</small> Food&nbsp;Experience</p>
-            <a class="button" href="#">Menu</a><a class="button" href="#">Directions</a>
-        </div>
-        <div class="topsection-img">
-        <img src="<?php echo get_stylesheet_directory_uri() ?>/images/Buck-Hill-Brewery-Blairstown-NJ.jpg"/>
+            <p>An American Craft Beer <small>and</small> Food&nbsp;Experience<br/>
+            <a class="button" href="#">Menu</a><a class="button" href="#">Directions</a></p>      
         </div>
     </div>
 

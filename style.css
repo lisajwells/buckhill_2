@@ -206,15 +206,15 @@ html {
 
 /* Chrome fix */
 body > div {
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
 
 body {
 	background-color: #fff;
 	color: #333;
 	font-family: 'Muli', sans-serif;
-	font-size: 20px;
-	font-size: 2rem;
+	font-size: 18px;
+	font-size: 1.8rem;
 	-webkit-font-smoothing: antialiased;
 	font-weight: 300;
 	line-height: 1.625;
@@ -273,7 +273,7 @@ hr {
 
 b,
 strong {
-	font-weight: 400;
+	font-weight: 700;
 }
 
 blockquote,
@@ -325,8 +325,8 @@ h2 {
 }
 
 h3 {
-	font-size: 24px;
-	font-size: 2.4rem;
+	font-size: 20px;
+	font-size: 2rem;
 }
 
 h4 {
@@ -479,19 +479,19 @@ input[type="reset"],
 input[type="submit"],
 .button {
 	background-color: rgb(45,73,59);
-	border: 2px solid rgb(10,48,21);
 	color: #fff;
 	cursor: pointer;
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-weight: 400;
   line-height: 16px;
-	padding: 8px 30px;
+	padding: 14px 30px;
   text-align: center;
 	text-decoration: none;
   text-transform: uppercase;
 	white-space: normal;
 	width: auto;
+	border:1px solid #417f60;
 }
 
 button:hover,
@@ -515,6 +515,7 @@ input:focus[type="submit"],
 
 .button {
 	display: inline-block;
+	margin:0 10px;
 }
 
 a.button.small,
@@ -628,6 +629,8 @@ th:first-child {
 .site-container {
   max-width: 1500px;
   margin: 0 auto;
+  border-left:1px solid #333;
+  border-right:1px solid #333;
 }
 
 .site-inner,
@@ -640,12 +643,14 @@ th:first-child {
 	clear: both;
 	padding-top: 40px;
 	word-wrap: break-word;
+  
 }
 
 .home .site-inner {
   padding-top: 0;
   position: relative;
   top: 80px;
+  z-index: 100;
 }
 
 .landing-page .site-inner {
@@ -1028,7 +1033,9 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 
 /*** Event Calendar Pro Front-Page Widget */
-
+.upcoming-events {
+  background-color:#231f20;
+}
 #tribe-events-adv-list-widget-2 {
   margin-bottom: 0;
   text-align: center;
@@ -1038,15 +1045,15 @@ img.alignright,
 .home .content-sidebar-wrap h3 {
   background-color: rgb(44,44,86);
   color: #fff;
-  font-size: 33px;
-  font-size: 3.3rem;
+  font-size: 90px;
+  font-size: 9rem;
   margin: 0;
-  padding: .5em 0;
+  padding: .1em 0;
   position: relative;
   text-align: center;
-  text-transform: uppercase;
-  /*top: 70px;*/
-  z-index: 100;
+  font-family: 'dark_roastregular', cursive;
+  /*text-transform: uppercase;
+  top: 70px;*/
 }
 
 #tribe-events-adv-list-widget-2 h3:after,
@@ -1061,6 +1068,7 @@ img.alignright,
     margin-left: -36px;
     width: 0;
     height: 0;
+    z-index:101;
 }
 
 #tribe-events-adv-list-widget-2 .tribe-mini-calendar-event .list-date,
@@ -1077,9 +1085,9 @@ img.alignright,
 .home .tribe-mini-calendar-event {
     border-bottom: 0;
     background-color: rgb(45,73,59);
-    border: 2px solid rgb(10,48,21);
+    border:1px solid #417f60;
     color: #fff;
-    padding: 0 5px 5px;
+    padding: 14px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1153,7 +1161,7 @@ p.tribe-events-widget-link {
   right: 0;
   top: 0;
   bottom: 0;
-  margin: 0;
+  margin:0;
 }
 
 #homepage-to-events-btn {
@@ -1163,10 +1171,10 @@ p.tribe-events-widget-link {
 
 /*** Home Content Section */
 
-.home-content-h4 {
+.home-content-h2 {
   font-family: 'dark_roastregular', cursive;
-  font-size: 80px;
-  font-size: 8rem;
+  font-size: 100px;
+  font-size: 10rem;
   font-weight: normal;
   line-height: .8;
   margin-bottom: 34px;
@@ -1174,16 +1182,16 @@ p.tribe-events-widget-link {
 }
 
 .home-content-img {
-  float: left;
-  margin-left: 7%;
-  margin-top: -20px;
-  width: 40%;
+  width: 80%;
+  margin:auto;
+  background-image:url(http://staging3.buckhillbrewery.com/wp-content/uploads/2016/07/infographic-background.jpg);
 }
 
 .home-content-text {
-  float: right;
-  margin-right: 7%;
-  width: 40%;
+  padding:60px;
+  background-color:#2C2C56;
+  border:6px double #fff;
+  color:#fff;
 }
 
 .home-content-text h4 {
@@ -1197,6 +1205,19 @@ p.tribe-events-widget-link {
   margin-bottom: 20px;
   width: 185px;
 }
+.one,
+.two,
+.three,
+.four {
+  float:left;
+  padding:60px;
+  width:50%;
+}
+.one,
+.three {
+  clear:both;
+}
+
 
 /* # Plugins
 ---------------------------------------------------------------------------------------------------- */
@@ -1510,40 +1531,47 @@ p.tribe-events-widget-link {
   width: 100%;
   position: relative;
   top: 80px;
+  height:560px;
 }
 
 .topsection-text {
-    background-color: rgb(35,31,32);
+    /*background-color: rgb(35,31,32);
+    display: table-cell;*/
     color: #fff;
-    display: table-cell;
-    font-size: 46px;
-    font-size: 4.6rem;
-    height: 100%;
+    font-size: 40px;
+    font-size: 4rem;
+    height: 50%;
     line-height: 1;
     padding: 1em;
     text-align: center;
     width: 50%;
+    margin: auto;
     vertical-align: middle;
 }
 
 .topsection-text p {
+    line-height:1.3;
+    margin-top:100px;
     margin-bottom: 10px;
+    background-color: rgb(35,31,32);
+    padding:50px 40px;
+    border:double 1px #417f60;
 }
 
 .topsection-text small {
   font-size: 29px;
   font-size: 2.9rem;
 }
-
+/*
 .topsection-img {
   display:table-cell;
   /*float: left;*/
-  width: 50%;
+  width: 100%;
   vertical-align:top;
 }
-
+*/
 .topsection .button {
-  margin: 0 1em;
+  margin: 20px;
 }
 
 /* # Content Area
@@ -1734,6 +1762,7 @@ p.entry-meta {
   padding: 6em 0 0 0;
   text-align: center;
   width: 100%;
+  z-index: 100;
 }
 
 .footer-widgets .widget-area {
@@ -1810,6 +1839,7 @@ p.entry-meta {
   line-height: 1.6;
   padding: 60px 0;
   text-align: center;
+  z-index: 101;
 }
 
 .site-footer a {
