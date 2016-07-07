@@ -1188,7 +1188,7 @@ p.tribe-events-widget-link {
 }
 
 .home-content-img {
-  width: 50%;
+  width:47%;
   position: absolute;
       -webkit-transform: translate(-50%,-50%);
         -ms-transform: translate(-50%,-50%);
@@ -1206,9 +1206,18 @@ p.tribe-events-widget-link {
   position: relative;
   width:50%;
 }
+
+.two {
+      margin-top: -40px;
+}
+
 .one,
 .three {
   clear:both;
+}
+
+.two img {
+    width: 77%;
 }
 
 .home-content-text {
