@@ -1950,6 +1950,10 @@ p.entry-meta {
     width: 400px;
   }
 
+  .home-content-img {
+    width: 57%;
+  }
+
   .footer-widgets-1.widget-area,
   .footer-widgets-2.widget-area {
     width: 30%;
