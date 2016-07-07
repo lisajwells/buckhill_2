@@ -1182,9 +1182,10 @@ p.tribe-events-widget-link {
 }
 
 .infographic {
-  width: 80%;
+  /*width: 80%;*/
   margin:auto;
   overflow: auto;
+  position: relative;
 }
 
 .home-content-img {
@@ -1202,7 +1203,7 @@ p.tribe-events-widget-link {
 .three,
 .four {
   float:left;
-  padding:60px;
+  padding:5%;
   position: relative;
   width:50%;
 }
@@ -2168,7 +2169,7 @@ p.entry-meta {
     top: 36px;
   }
 
-  .home-content-img {
+/*  .home-content-img {
      float: none;
      width: 100%;
      margin: 0 0 20px 0;
@@ -2183,7 +2184,7 @@ p.entry-meta {
        margin-right: 0;
        width: 100%;
   }
-
+*/
   .topsection-text {
       font-size: 30px;
       font-size: 3rem;
@@ -2272,7 +2273,7 @@ p.entry-meta {
   }
 
   .home-content-text .button {
-    margin: 0 auto 20px;
+    /*margin: 0 auto 20px;*/
   }
 
   .after-entry,
