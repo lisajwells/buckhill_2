@@ -16,6 +16,11 @@ function buckhill_add_topsection() { ?>
         <div class="topsection-placeholder">
             <img src="http://staging3.buckhillbrewery.com/wp-content/themes/buckhill/images/empty_444x250.png">
         </div>
+        <div class="topsection-text">
+            <p>An American Craft Beer <small>and</small> Food&nbsp;Experience<br/>
+            <a class="button" href="#">Menu</a><a class="button" href="#">Directions</a></p>
+        </div>
+
     </div>
 
 <?php
@@ -36,10 +41,6 @@ function buckhill_add_process_h3() {
     echo '<h3>Our Process</h3>';
 }
 
-            // <div class="topsection-text">
-            //     <p>An American Craft Beer <small>and</small> Food&nbsp;Experience<br/>
-            //     <a class="button" href="#">Menu</a><a class="button" href="#">Directions</a></p>
-            // </div>
 
 
 genesis();
