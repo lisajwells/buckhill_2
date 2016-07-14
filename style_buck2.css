@@ -273,7 +273,7 @@ hr {
 
 b,
 strong {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 blockquote,
@@ -320,13 +320,13 @@ h1 {
 }
 
 h2 {
-  font-size: 26px;
-  font-size: 2.6rem;
+  font-size: 30px;
+  font-size: 3rem;
 }
 
 h3 {
-  font-size: 20px;
-  font-size: 2rem;
+  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 h4 {
@@ -343,10 +343,7 @@ h6 {
   font-size: 16px;
   font-size: 1.6rem;
 }
-.blue {
-  font-weight:900;
-  color:#2C2C56;
-  }
+
 /* ## Objects
 --------------------------------------------- */
 
@@ -439,21 +436,6 @@ figure {
   border: 1px solid #999;
 }
 
-
-/* ## Menu
---------------------------------------------- */
-.fdm-section-header h3 {
-    margin-bottom: 0.5em;
-    font-family: darkroast;
-    font-size: 60px;
-}
-.fdm-section-header {
-    border-bottom: none !important;
-}
-.fdm-item-price-wrapper {
-    font-weight:700;
-	}
-
 /* ## Forms
 --------------------------------------------- */
 
@@ -497,19 +479,19 @@ input[type="reset"],
 input[type="submit"],
 .button {
   background-color: rgb(45,73,59);
+  border: 2px solid rgb(10,48,21);
   color: #fff;
   cursor: pointer;
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 16px;
-  padding: 14px 30px;
+  padding: 8px 30px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   white-space: normal;
   width: auto;
-  border:1px solid #417f60;
 }
 
 button:hover,
@@ -533,7 +515,6 @@ input:focus[type="submit"],
 
 .button {
   display: inline-block;
-  margin:0 10px;
 }
 
 a.button.small,
@@ -647,8 +628,6 @@ th:first-child {
 .site-container {
   max-width: 1500px;
   margin: 0 auto;
-  border-left:1px solid #333;
-  border-right:1px solid #333;
 }
 
 .site-inner,
@@ -661,14 +640,12 @@ th:first-child {
   clear: both;
   padding-top: 40px;
   word-wrap: break-word;
-
 }
 
 .home .site-inner {
   padding-top: 0;
   position: relative;
   top: 80px;
-  z-index: 100;
 }
 
 .landing-page .site-inner {
@@ -757,13 +734,13 @@ th:first-child {
 .two-sixths,
 .two-thirds {
   float: left;
-  margin-left: 6.564102564102564%;
+  margin-left: 2.564102564102564%;
 }
 
 .one-half,
 .three-sixths,
 .two-fourths {
-  width: 40.717948717948715%;
+  width: 48.717948717948715%;
 }
 
 .one-third,
@@ -895,7 +872,6 @@ th:first-child {
 .entry-title {
   font-size: 36px;
   font-size: 3.6rem;
-  text-align:center;
 }
 
 .entry-title a,
@@ -1052,9 +1028,7 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 
 /*** Event Calendar Pro Front-Page Widget */
-.upcoming-events {
-  background-color:#231f20;
-}
+
 #tribe-events-adv-list-widget-2 {
   margin-bottom: 0;
   text-align: center;
@@ -1064,15 +1038,15 @@ img.alignright,
 .home .content-sidebar-wrap h3 {
   background-color: rgb(44,44,86);
   color: #fff;
-  font-size: 90px;
-  font-size: 9rem;
+  font-size: 33px;
+  font-size: 3.3rem;
   margin: 0;
-  padding: .1em 0;
+  padding: .5em 0;
   position: relative;
   text-align: center;
-  font-family: 'dark_roastregular', cursive;
-  /*text-transform: uppercase;
-  top: 70px;*/
+  text-transform: uppercase;
+  /*top: 70px;*/
+  z-index: 100;
 }
 
 #tribe-events-adv-list-widget-2 h3:after,
@@ -1087,7 +1061,6 @@ img.alignright,
     margin-left: -36px;
     width: 0;
     height: 0;
-    z-index:101;
 }
 
 #tribe-events-adv-list-widget-2 .tribe-mini-calendar-event .list-date,
@@ -1104,9 +1077,9 @@ img.alignright,
 .home .tribe-mini-calendar-event {
     border-bottom: 0;
     background-color: rgb(45,73,59);
-    border:1px solid #417f60;
+    border: 2px solid rgb(10,48,21);
     color: #fff;
-    padding: 14px;
+    padding: 0 5px 5px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1155,10 +1128,9 @@ img.alignright,
 }
 
 p.tribe-events-widget-link {
-    display:none;
-    /*background-color: rgb(35,31,32);
+    background-color: rgb(35,31,32);
     clear: both;
-    padding: 1.2em;*/
+    padding: 1.2em;
 }
 
 .tribe-events-event-image {
@@ -1181,7 +1153,7 @@ p.tribe-events-widget-link {
   right: 0;
   top: 0;
   bottom: 0;
-  margin:0;
+  margin: 0;
 }
 
 #homepage-to-events-btn {
@@ -1190,6 +1162,16 @@ p.tribe-events-widget-link {
 }
 
 /*** Home Content Section */
+
+.home-content-h4 {
+  font-family: 'dark_roastregular', cursive;
+  font-size: 80px;
+  font-size: 8rem;
+  font-weight: normal;
+  line-height: .8;
+  margin-bottom: 34px;
+  text-align: center;
+}
 
 .home-content-h2 {
   font-family: 'dark_roastregular', cursive;
@@ -1209,7 +1191,7 @@ p.tribe-events-widget-link {
 }
 
 .home-content-img {
-  width:64%;
+  width:68%;
   position: absolute;
       -webkit-transform: translate(-50%,-50%);
         -ms-transform: translate(-50%,-50%);
@@ -1476,6 +1458,7 @@ p.tribe-events-widget-link {
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus  {
   color: #fff;
+  text-decoration: underline;
 }
 
 .genesis-nav-menu .sub-menu {
@@ -1580,61 +1563,43 @@ p.tribe-events-widget-link {
 ---------------------------------------------------------------------------------------------------- */
 
 .topsection {
-  background-color: rgb(44,44,86);
-  height: auto;
+  width: 100%;
   position: relative;
   top: 80px;
-  width: 100%;
-  /*height:560px;*/
-}
-
-.topsection-placeholder img {
-    width: 100%;
-    height: auto;
-}
-
-.vidbg-container {
-
 }
 
 .topsection-text {
+    background-color: rgb(35,31,32);
     color: #fff;
-    font-size: 40px;
-    font-size: 4rem;
-    left: 50%;
-    position: absolute;
+    display: table-cell;
+    font-size: 46px;
+    font-size: 4.6rem;
+    height: 100%;
+    line-height: 1;
+    padding: 1em;
     text-align: center;
-    top: 50%;
-    -webkit-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%);
-
+    width: 50%;
+    vertical-align: middle;
 }
 
 .topsection-text p {
-    background-color: rgb(35,31,32);
-    border:double 1px #417f60;
-    line-height:1.3;
-    margin: 0;
-    padding: 50px 40px;
-    /*width: 50%;*/
+    margin-bottom: 10px;
 }
 
 .topsection-text small {
   font-size: 29px;
   font-size: 2.9rem;
 }
-/*
+
 .topsection-img {
   display:table-cell;
-  float: left;
-  width: 100%;
+  /*float: left;*/
+  width: 50%;
   vertical-align:top;
 }
-*/
 
 .topsection .button {
-  margin: 20px;
+  margin: 0 1em;
 }
 
 /* # Content Area
@@ -1660,7 +1625,7 @@ p.tribe-events-widget-link {
 }
 
 .entry-content ul > li {
-  list-style-type: none;
+  list-style-type: disc;
 }
 
 .entry-content ol ol,
@@ -1683,8 +1648,7 @@ p.entry-meta {
 }
 
 .entry-header .entry-meta {
-  display:none;
-  /*margin-bottom: 24px;*/
+  margin-bottom: 24px;
 }
 
 .entry-footer .entry-meta {
@@ -1826,7 +1790,6 @@ p.entry-meta {
   padding: 6em 0 0 0;
   text-align: center;
   width: 100%;
-  z-index: 100;
 }
 
 .footer-widgets .widget-area {
@@ -1882,7 +1845,7 @@ p.entry-meta {
 }
 
 .footer-widgets-2 img {
-    width: 26%;
+    width: 21%;
     margin: 0 auto;
 }
 
@@ -1903,7 +1866,6 @@ p.entry-meta {
   line-height: 1.6;
   padding: 60px 0;
   text-align: center;
-  z-index: 101;
 }
 
 .site-footer a {
@@ -1985,10 +1947,6 @@ p.entry-meta {
   .sidebar-sidebar-content .content,
   .content-sidebar-sidebar .content {
     width: 400px;
-  }
-
-  .home-content-img {
-    /*width: 57%;*/
   }
 
   .footer-widgets-1.widget-area,
@@ -2203,18 +2161,14 @@ p.entry-meta {
   }
 
   .topsection {
-      top: 48px;
-  }
-
-  .topsection .button {
-    padding: 14px 22px;
+      top: 36px;
   }
 
   .home .site-inner {
     top: 36px;
   }
 
-/*  .home-content-img {
+  .home-content-img {
      float: none;
      width: 100%;
      margin: 0 0 20px 0;
@@ -2229,21 +2183,20 @@ p.entry-meta {
        margin-right: 0;
        width: 100%;
   }
-*/
+
   .topsection-text {
       font-size: 30px;
       font-size: 3rem;
-      /*padding: 3em 1em 1em 1em;*/
+      padding: 3em 1em 1em 1em;
   }
-
   .topsection-text small {
       font-size: 20px;
       font-size: 2rem;
   }
 
   #tribe-events-adv-list-widget-2 h3, .home .content-sidebar-wrap h3 {
-      font-size: 100px;
-      font-size: 10rem;
+      font-size: 28px;
+      font-size: 2.8rem;
   }
 
   .home .tribe-mini-calendar-event {
@@ -2296,29 +2249,15 @@ p.entry-meta {
       width: 36%;
   }
 
-  .topsection-text {
-      font-size: 24px;
-      font-size: 2.4rem;
-      left: 10%;
-      top: 20%;
-      width: 80%;
-      -webkit-transform: none;
-          -ms-transform: none;
-             transform: none;
-  }
-
-  .topsection-text p {
-    padding: 1em;
-  }
-
-  .topsection .button {
-      padding: 8px 16px;
-      margin: 20px 8px 8px 8px;
+  .topsection-text,
+  .topsection-img {
+    display: block;
+    width: 100%;
   }
 
   #tribe-events-adv-list-widget-2 h3, .home .content-sidebar-wrap h3 {
-    font-size: 80px;
-    font-size: 8rem;
+    font-size: 22px;
+    font-size: 2.2rem;
   }
 
   #tribe-events-adv-list-widget-2 .type-tribe_events {
@@ -2333,7 +2272,7 @@ p.entry-meta {
   }
 
   .home-content-text .button {
-    /*margin: 0 auto 20px;*/
+    margin: 0 auto 20px;
   }
 
   .after-entry,
@@ -2396,21 +2335,16 @@ p.entry-meta {
 
 @media only screen and (max-width: 500px) {
 
-/*  .topsection-text {
+  .topsection-text {
     padding: 2em 1em 1em 1em;
   }
 
   .topsection .button {
       margin: .5em 1em;
   }
-*/
+
   #tribe-events-adv-list-widget-2 .type-tribe_events {
     margin: 2em auto;
-  }
-
-  #tribe-events-adv-list-widget-2 h3, .home .content-sidebar-wrap h3 {
-    font-size: 50px;
-    font-size: 5rem;
   }
 
   .home-content-h4 {
