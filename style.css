@@ -2345,6 +2345,23 @@ p.entry-meta {
     margin-top: 0;
   }
 
+  .one img.wp-image-126 {
+    margin: 10px auto 8px;
+    max-width: 190px;
+  }
+
+  .two img.wp-image-127 {
+    max-width: 140px;
+  }
+
+  .three img.wp-image-128 {
+    max-width: 176px;
+  }
+
+  .four img.wp-image-129 {
+    max-width: 156px;
+  }
+
   .infographic-arrow {
     display: block;
     width: 100px;
