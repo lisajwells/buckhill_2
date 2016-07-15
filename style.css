@@ -2211,26 +2211,6 @@ p.entry-meta {
     padding: 14px 22px;
   }
 
-  .home .site-inner {
-    top: 36px;
-  }
-
-/*  .home-content-img {
-     float: none;
-     width: 100%;
-     margin: 0 0 20px 0;
-  }
-
-  .home-content-img img {
-     margin: 0 auto;
-  }
-
-  .home-content-text {
-       float: none;
-       margin-right: 0;
-       width: 100%;
-  }
-*/
   .topsection-text {
       font-size: 30px;
       font-size: 3rem;
@@ -2240,6 +2220,10 @@ p.entry-meta {
   .topsection-text small {
       font-size: 20px;
       font-size: 2rem;
+  }
+
+  .home .site-inner {
+    top: 36px;
   }
 
   #tribe-events-adv-list-widget-2 h3, .home .content-sidebar-wrap h3 {
@@ -2259,6 +2243,12 @@ p.entry-meta {
   .home-content-h4 {
     font-size: 50px;
     font-size: 5rem;
+  }
+
+  .one, .two, .three, .four {
+    font-size: 16px;
+    font-size: 1.6rem;
+    padding: 5% 12%;
   }
 
   .footer-widgets .widget-area {
