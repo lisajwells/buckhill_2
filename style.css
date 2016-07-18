@@ -2267,6 +2267,10 @@ p.entry-meta {
     margin: 0 auto 40px;
   }
 
+  .footer-widgets-2 img {
+    width: 80px;
+  }
+
 }
 
 @media only screen and (max-width: 860px) {
