@@ -1885,7 +1885,7 @@ p.entry-meta {
 }
 
 .footer-widgets-2 img {
-    width: 26%;
+    width: 104px;
     margin: 0 auto;
 }
 
@@ -1996,11 +1996,11 @@ p.entry-meta {
 
   .footer-widgets-1.widget-area,
   .footer-widgets-2.widget-area {
-    width: 30%;
+    width: 28%;
   }
 
   .footer-widgets-3.widget-area {
-    width: 40%;
+    width: 44%;
   }
 
 }
@@ -2251,6 +2251,11 @@ p.entry-meta {
     font-size: 16px;
     font-size: 1.6rem;
     padding: 5% 12%;
+  }
+
+  .footer-widgets {
+    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   .footer-widgets .widget-area {
