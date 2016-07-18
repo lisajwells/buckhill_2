@@ -453,6 +453,11 @@ figure {
 .fdm-item-price-wrapper {
     font-weight:700;
 	}
+ul.fdm-section.fdm-sectionid-9.fdm-section-0 {
+    border:4px double #333 ;
+    padding:40px;
+    width:60%;
+}
 
 /* ## Forms
 --------------------------------------------- */
@@ -667,7 +672,7 @@ th:first-child {
 .home .site-inner {
   padding-top: 0;
   position: relative;
-  top: 80px;
+  top: -110px;
   z-index: 100;
 }
 
@@ -1584,7 +1589,7 @@ p.tribe-events-widget-link {
   background-color: rgb(44,44,86);
   height: auto;
   position: relative;
-  top: 80px;
+  top: -30px;
   width: 100%;
   /*height:560px;*/
 }

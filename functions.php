@@ -22,9 +22,9 @@ load_child_theme_textdomain( 'genesis-sample', apply_filters( 'child_theme_textd
 //* Add Image upload and Color select to WordPress Theme Customizer
 require_once( get_stylesheet_directory() . '/lib/customize.php' );
 
-//* Add Image Sizes -- this gets done later, too, so i'm commenting it
-// add_image_size( 'featured-image', 720, 400, TRUE );
-// add_image_size( 'events-home', 400, 300, true );
+//* Add Image Sizes
+add_image_size( 'featured-image', 720, 400, TRUE );
+add_image_size( 'events-home', 400, 300, true );
 
 //* Include Customizer CSS
 include_once( get_stylesheet_directory() . '/lib/output.php' );
