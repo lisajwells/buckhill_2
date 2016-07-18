@@ -50,6 +50,9 @@ if ( isset( $posts ) && $posts ) :
 		<!-- Event  -->
 		<div class="<?php tribe_events_event_classes() ?>">
 
+			<!-- but we no longer want to pull the featured image since the featured image will be ugly -->
+			<?php// echo tribe_event_featured_image( null, 'events-home' ); ?>
+
 			<!-- add the image / events-home is 500 x 340 -->
 			<?php if ($event_index == 0) { ?>
 				<div class="tribe-events-event-image"><img src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/06/Brewery-Blairstown-NJ.jpg"></div>
@@ -61,9 +64,6 @@ if ( isset( $posts ) && $posts ) :
 				<div class="tribe-events-event-image"><img src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/06/Buck-Hill-Bar.jpg"></div>
 
 			<?php }?>
-
-
-			<?php// echo tribe_event_featured_image( null, 'events-home' ); ?>
 
 			<!-- <?php //echo tribe_get_event_taxonomy ( 'category' ); ?> -->
 
