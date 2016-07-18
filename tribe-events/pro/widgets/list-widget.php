@@ -54,7 +54,15 @@ if ( isset( $posts ) && $posts ) :
 			<?php if ($event_index == 0) { ?>
 				<div class="tribe-events-event-image"><img src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/06/Brewery-Blairstown-NJ.jpg"></div>
 
-			<?php } ?>
+			<?php } elseif ($event_index == 1) { ?>
+				<div class="tribe-events-event-image"><img src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/06/Craft-Beer-Brewing.jpg"></div>
+
+			<?php } else { ?>
+				<div class="tribe-events-event-image"><img src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/06/Buck-Hill-Bar.jpg"></div>
+
+			<?php }?>
+
+
 			<?php// echo tribe_event_featured_image( null, 'events-home' ); ?>
 
 			<!-- <?php //echo tribe_get_event_taxonomy ( 'category' ); ?> -->
