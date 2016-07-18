@@ -41,6 +41,8 @@ $link_to_all = tribe_events_get_list_widget_view_all_link( $instance );
 // Check if any posts were found.
 if ( isset( $posts ) && $posts ) :
 
+	$event_index = 0;
+
 	foreach ( $posts as $post ) :
 		setup_postdata( $post );
 		do_action( 'tribe_events_widget_list_inside_before_loop' ); ?>
@@ -48,8 +50,12 @@ if ( isset( $posts ) && $posts ) :
 		<!-- Event  -->
 		<div class="<?php tribe_events_event_classes() ?>">
 
-			<!-- add the featured image / events-home is 500 x 340 -->
-			<?php echo tribe_event_featured_image( null, 'events-home' ); ?>
+			<!-- add the image / events-home is 500 x 340 -->
+			<?php if ($event_index == 0) { ?>
+				<div class="tribe-events-event-image"><img src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/06/Brewery-Blairstown-NJ.jpg"></div>
+
+			<?php } ?>
+			<?php// echo tribe_event_featured_image( null, 'events-home' ); ?>
 
 			<!-- <?php //echo tribe_get_event_taxonomy ( 'category' ); ?> -->
 
@@ -57,6 +63,8 @@ if ( isset( $posts ) && $posts ) :
 		</div>
 
 		<?php do_action( 'tribe_events_widget_list_inside_after_loop' ) ?>
+
+		<?php $event_index++; ?>
 
 	<?php endforeach ?>
 
