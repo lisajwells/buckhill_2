@@ -1863,6 +1863,14 @@ p.entry-meta {
 
 /*page-template-page-contact*/
 
+.contact-imageband {
+
+}
+
+.contact-imageband-img {
+    float: left;
+    width: 33.33333333333%;
+}
 
 
 /* # Sidebars
@@ -2452,6 +2460,13 @@ p.entry-meta {
     width: 100px;
     margin: 14px auto 0;
   }
+
+  .contact-imageband-img {
+      float: none;
+      width: auto;
+      margin: 0 auto;
+  }
+
 
   .after-entry,
   .archive-description,
