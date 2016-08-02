@@ -153,7 +153,7 @@ function genesis_sample_comments_gravatar( $args ) {
 add_filter( 'genesis_pre_get_option_site_layout', 'bh_event_do_layout' );
 function bh_event_do_layout( $opt ) {
     // if( tribe_is_event() && is_single() ) { // tribe_is_event() isn't working. the page layout doesn't change with this
-    if( is_single() ) { // Modify the conditions to apply the layout to here
+    if( is_single() ) {
         $opt = 'content-sidebar';
         return $opt;
     }
