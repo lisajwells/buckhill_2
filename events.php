@@ -9,7 +9,7 @@
 add_action('genesis_entry_footer', 'bh_events_add_buttons');
 function bh_events_add_buttons() {
 
-    echo '<a class="button" href="#">Book a Private Event</a><a class="button" href="#">Directions</a>';
+    echo '<a class="button" href="'.esc_url( home_url() ).'/event-venues">Book a Private Event</a><a class="button" href="'.esc_url( home_url() ).'/directions-contact">Directions</a>';
 }
 
 add_action('genesis_after_content_sidebar_wrap', 'bh_contact_add_imageband');

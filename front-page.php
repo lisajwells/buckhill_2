@@ -18,7 +18,7 @@ function buckhill_add_topsection() { ?>
         </div>
         <div class="topsection-text">
             <p>An American Craft Beer <small>and</small> Food&nbsp;Experience<br/>
-            <a class="button" href="#">Menu</a><a class="button" href="#">Directions</a></p>
+            <a class="button" href="<?php esc_url( home_url() ) ?>/menu">Menu</a><a class="button" href="<?php esc_url( home_url() ) ?>/directions-contact">Directions</a></p>
         </div>
 
     </div>
