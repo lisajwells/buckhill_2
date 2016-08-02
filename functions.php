@@ -55,6 +55,9 @@ function genesis_sample_enqueue_scripts_styles() {
 //* Add HTML5 markup structure
 add_theme_support( 'html5', array( 'caption', 'comment-form', 'comment-list', 'gallery', 'search-form' ) );
 
+//* Remove style sheet from VFB
+add_filter( 'visual-form-builder-css', '__return_false' );
+
 //* Add Accessibility support
 add_theme_support( 'genesis-accessibility', array( '404-page', 'drop-down-menu', 'headings', 'rems', 'search-form', 'skip-links' ) );
 
