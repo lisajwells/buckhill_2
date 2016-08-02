@@ -1397,6 +1397,10 @@ h2.tribe-events-page-title {
     margin: 0 0 4px 0 !important;
 }
 
+.events-archive .entry-footer {
+  text-align: center;
+}
+
 /* # Plugins
 ---------------------------------------------------------------------------------------------------- */
 .vfb-fieldset {
