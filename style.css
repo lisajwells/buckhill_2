@@ -1383,6 +1383,11 @@ h2.tribe-events-page-title {
     padding: 8px 35px 8px 14px;
     text-shadow:none !important;
 }
+
+.tribe_events.entry {
+  border: none;
+}
+
 /* # Plugins
 ---------------------------------------------------------------------------------------------------- */
 .vfb-fieldset {
