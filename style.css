@@ -1393,6 +1393,7 @@ h2.tribe-events-page-title {
 
 #tribe-events-content .tribe-events-tooltip h4 {
     font-family: 'Muli', sans-serif;
+    color: #231F20 !important;
     margin: 0 0 4px 0 !important;
 }
 
