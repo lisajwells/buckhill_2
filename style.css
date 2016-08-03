@@ -1397,7 +1397,8 @@ h2.tribe-events-page-title {
     margin: 0 0 4px 0 !important;
 }
 
-.events-archive .entry-footer {
+.events-archive .entry-footer,
+.events-single .entry-footer {
   text-align: center;
 }
 
