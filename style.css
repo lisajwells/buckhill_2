@@ -205,7 +205,7 @@ html {
   font-size: 62.5%; /* 10px browser default */
 }
 
-/* Chrome fix 
+/* Chrome fix
 body > div {
   font-size: 1.8rem;
 }*/
@@ -1418,7 +1418,7 @@ padding:5% 7% 5% 13%;
 .single-tribe_events.content-sidebar-wrap {
     border: 1px solid #417f60;
 }
-.tribe_events.entry {
+table.tribe-events-calendar .entry {
   border: none;
 }
 
@@ -1430,11 +1430,11 @@ padding:5% 7% 5% 13%;
 
 .events-archive .entry-footer,
 .events-single .entry-footer {
-  text-align: center; 
+  text-align: center;
 }
 .events-single .entry-footer {
   text-align: center;
-  display:none; 
+  display:none;
 }
 .events-single .entry {
   padding-top:20px;
