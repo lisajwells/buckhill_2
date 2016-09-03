@@ -15,9 +15,9 @@ function bh_events_add_buttons() {
 add_action('genesis_after_content_sidebar_wrap', 'bh_contact_add_imageband');
 function bh_contact_add_imageband() {
     echo '<div class="contact-imageband">';
-        echo '<img class="size-full contact-imageband-img" src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/07/Full-Bar-and-Specialty-Cocktails.jpg" alt="Full Bar and Specialty Cocktails">';
-        echo '<img class="size-full contact-imageband-img" src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/07/Race-Farms.png" alt="Race Farms">';
-        echo '<img class="size-full contact-imageband-img" src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/07/Tables-Made-From-Local-Wood.jpg" alt="Tables-Made-From-Local-Wood">';
+        echo '<img class="size-full contact-imageband-img" src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/07/Craft-Beer-on-Tap.jpg" alt="Buck Hill Brewery">';
+        echo '<img class="size-full contact-imageband-img" src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/08/Buck-Hill-in-Blairstown.jpg" alt="Craft Beer on Tap">';
+        echo '<img class="size-full contact-imageband-img" src="http://staging3.buckhillbrewery.com/wp-content/uploads/2016/08/Buck-Hill-Brewery.jpg" alt="Private Events and Bands at Buck Hill Brewery">';
     echo '</div>';
 }
 

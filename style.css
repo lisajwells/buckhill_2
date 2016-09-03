@@ -14,7 +14,6 @@
 
   License: GPL-2.0+
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
-  aaaaa
 */
 
 
@@ -206,17 +205,17 @@ html {
   font-size: 62.5%; /* 10px browser default */
 }
 
-/* Chrome fix */
+/* Chrome fix 
 body > div {
   font-size: 1.8rem;
-}
+}*/
 
 body {
-  background-color: #fff;
+  background-color: #f4f4f4;
   color: #333;
   font-family: 'Muli', sans-serif;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 17px;
+  font-size: 1.7rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 300;
   line-height: 1.625;
@@ -479,7 +478,6 @@ figure {
     margin-bottom: 0.5em;
     font-size: 40px;
 }
-#fdm-menu-4,
 #fdm-menu-5 {
    text-align:center;
 }
@@ -509,7 +507,7 @@ figure {
 }
 .menuLinks li{
     display:inline-block;
-    padding: 10px 20px;
+    padding: 8px 20px 5px 20px;
 }
 .menuLinks a {
     color:#fff;
@@ -571,7 +569,7 @@ input[type="submit"],
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1.2;
   padding: 14px 30px;
   text-align: center;
   text-decoration: none;
@@ -586,6 +584,7 @@ input:hover[type="button"],
 input:hover[type="reset"],
 input:hover[type="submit"],
 .button:hover,
+button:active,
 button:focus,
 input:focus[type="button"],
 input:focus[type="reset"],
@@ -594,7 +593,6 @@ input:focus[type="submit"],
   background-color: rgb(44,44,86);
   color: #fff;
 }
-
 .entry-content .button:hover,
 .entry-content .button:focus {
   color: #fff;
@@ -628,7 +626,15 @@ input[type="submit"].small {
   color: #777;
   cursor: not-allowed;
 }
-
+.privateButton, .calendarButton {
+  width:100%;
+  margin:0px;
+}
+.page-id-76 .privateButton,
+.events-archive .calendarButton {
+  background-color: rgb(44,44,86);
+  color: #fff;
+}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button {
   display: none;
@@ -716,8 +722,7 @@ th:first-child {
 .site-container {
   max-width: 1500px;
   margin: 0 auto;
-  border-left:1px solid #333;
-  border-right:1px solid #333;
+  background-color:#fff;
 }
 
 .site-inner,
@@ -771,6 +776,7 @@ th:first-child {
 .content {
   float: right;
   width: 75%;
+  padding:20px 40px;
 }
 
 .content-sidebar .content,
@@ -786,17 +792,27 @@ th:first-child {
 }
 
 .full-width-content .content {
-  width: 100%;
+  width: 84%;
+  margin:0 8%;
 }
 
 /* ### Primary Sidebar */
 
 .sidebar-primary {
-  float: right;
-  width: 25%;
-  margin-top: 70px;
+    float: right;
+    width: 20%;
+    text-align:center;
+    margin:90px 40px 0 -40px;
+    background-color:#F4F4F4;
+    padding:16px;
+    border:1px solid #ccc;
 }
-
+.greyBox {
+    background-color:#F4F4F4;
+    padding:20px;
+    border:1px solid #ccc;
+    margin:20px 0px;
+}
 .sidebar-content .sidebar-primary,
 .sidebar-sidebar-content .sidebar-primary {
   float: left;
@@ -1180,12 +1196,12 @@ img.alignright,
     background-color: rgb(45,73,59);
     border:1px solid #417f60;
     color: #fff;
-    padding: 14px;
+    padding: 13px;
     position: absolute;
     left: 50%;
     top: 50%;
     z-index: 100;
-    width: 50%;
+    width: 54%;
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -1234,7 +1250,10 @@ p.tribe-events-widget-link {
     clear: both;
     padding: 1.2em;*/
 }
-
+.tribe_events.entry {
+    padding: 0px;
+    margin: 0px;
+}
 .tribe-events-event-image {
   display: block;
   width: 100%;
@@ -1255,7 +1274,7 @@ p.tribe-events-widget-link {
   right: 0;
   top: 0;
   bottom: 0;
-  margin:0;
+  margin:auto;
 }
 h2.tribe-events-page-title {
   font-family: 'dark_roastregular', cursive;
@@ -1277,7 +1296,7 @@ h2.tribe-events-page-title {
     display:none !important;
 }
 #tribe-events {
-    width:80%;
+    width:100%;
     margin:auto;
 }
 #tribe-events-content > a {
@@ -1317,9 +1336,16 @@ h2.tribe-events-page-title {
 .three,
 .four {
   float:left;
-  padding:5% 13%;
   position: relative;
   width:50%;
+}
+.one,
+.three {
+padding:5% 13% 5% 7%;
+}
+.two,
+.four {
+padding:5% 7% 5% 13%;
 }
 .one img.wp-image-126,
 .two img.wp-image-127,
@@ -1343,10 +1369,10 @@ h2.tribe-events-page-title {
 */
 .home-content-text {
   padding:60px;
-  background-color:#2C2C56;
-  border:6px double #fff;
+  background-color: #2C2C56;
+  border: double 1px #417f60;
   color:#fff;
-      width: 80%;
+      width: 86%;
     margin: 0 auto;
 }
 
@@ -1370,11 +1396,16 @@ h2.tribe-events-page-title {
 /* # Events
 ---------------------------------------------------------------------------------------------------- */
 .calendarButton {
-  margin-top:-140px;
-	}
+  width:100%;
+  margin:0px 0px 10px 0px;
+}
 #tribe-events-content a {
   color:#417f60;
 	}
+#tribe-events-content {
+    margin-bottom: 0px !important;
+    padding: 0 !important;
+}
 .tribe-events-notices {
     background-color: #231f20 !important;
     border-radius: 0px;
@@ -1384,12 +1415,11 @@ h2.tribe-events-page-title {
     padding: 8px 35px 8px 14px;
     text-shadow:none !important;
 }
-
+.single-tribe_events.content-sidebar-wrap {
+    border: 1px solid #417f60;
+}
 .tribe_events.entry {
   border: none;
-}
-
-.tribe-events-tooltip .entry-title {
 }
 
 #tribe-events-content .tribe-events-tooltip h4 {
@@ -1400,7 +1430,54 @@ h2.tribe-events-page-title {
 
 .events-archive .entry-footer,
 .events-single .entry-footer {
+  text-align: center; 
+}
+.events-single .entry-footer {
   text-align: center;
+  display:none; 
+}
+.events-single .entry {
+  padding-top:20px;
+}
+.button.calendarButton {
+
+}
+.button.calendarButton :active {
+  background-color:#2C2C56;
+}
+
+.tribe-events-back {
+	/*margin-bottom:5px !important;
+	background-color:rgb(45,73,59);
+	border: 1px solid #417f60;
+	padding:2px;
+	font-size:14px;
+	width:140px !important;
+	text-align:center;*/
+	display:none;
+}
+.tribe-events-back a {
+	color:#fff !important;
+	text-decoration:none;
+	border-bottom:none !important;
+}
+.tribe-events-schedule {
+	margin:0 !important;
+}
+.tribe-events-schedule h2 {
+	font-size:16px;
+	margin:-20px 0px 0px 0px;
+	text-align:center;
+}
+.single-tribe_events .tribe-events-single-event-title {
+	text-align:center;
+	font-family: 'dark_roastregular';
+	font-size:90px !important;
+}
+#tribe-events-content table.tribe-events-calendar {
+    border-bottom: 1px solid #d2d2d2;
+    border-top: 0;
+    margin-top: -20px !important;
 }
 
 /* # Plugins
@@ -1415,10 +1492,12 @@ h2.tribe-events-page-title {
 	margin-top:-40px;
 }
 .entry-content ol, .entry-content ul {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-left: 0px !important;
 }
-
+.entry-content ul li {
+    margin-bottom:10px;
+}
 
 
 /* ## Genesis eNews Extended
@@ -1792,14 +1871,14 @@ h2.tribe-events-page-title {
   background-color: #fff;
   margin-bottom: 20px;
   padding: 40px 80px;
-  border:6px double #417f60;
-  margin:7% 10%;
+  border:5px double #417f60;
+  margin:7% 0%;
 }
 .page-id-84 .entry {
   border:none;
   margin:0px;
   margin-bottom: 20px;
-  padding: 60px 80px 0px 80px;
+  padding:60px 0px 0px 0px !important;
 }
 .entry-content ol,
 .entry-content ul {
@@ -1984,7 +2063,6 @@ p.entry-meta {
 }
 
 .sidebar .widget {
-  background-color: #fff;
 }
 
 

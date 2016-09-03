@@ -157,4 +157,8 @@ function bh_event_do_layout( $opt ) {
         $opt = 'content-sidebar';
         return $opt;
     }
+     if( is_archive() ) {
+        $opt = 'content-sidebar';
+        return $opt;
+    }
 }
